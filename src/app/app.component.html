@@ -1,3 +1,24 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container-fluid rounded">
+  <div class="row fullWidth">
+    <img class="img-responsive logo-img" src="assets/eyes.png">
+    <span>The Algorithmist Leaflet Demo</span>
+  </div>
+
+  <div class="row fullWidth">
+    <div class="paddedDiv">
+      <div *ngIf="_loading">
+        <!-- Loading component -->
+        <loading loadingText="Loading Leaflet Map"></loading>
+      </div>
+      <!-- The actual leaflet map -->
+      <leaflet-map (layerAdded)="__onLayerAdded($event)"></leaflet-map>
+    </div>
+  </div>
+
+  <div class="row fullWidth">
+    <div class="paddedDiv">
+      <!-- A simple navigator to get us somewhere on the map -->
+      <map-navigator></map-navigator>
+    </div>
+  </div>
+</div>

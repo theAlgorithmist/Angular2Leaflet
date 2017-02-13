@@ -1,0 +1,29 @@
+
+input 
+{
+  margin: 10px 6px 10px 0px;
+  width: 350px;
+  height: 35px;
+  border: 2px solid rgba(77, 156, 237, 0.7);
+  font-size: 16px;
+}
+
+.gotoBtn 
+{
+  height: 35px;
+}
+
+.clickable
+{
+  cursor: pointer;
+}
+
+.leftBuffer
+{
+  margin-left: 10px;
+}
+
+.topBuffer
+{
+  margin-top: 12px;
+}

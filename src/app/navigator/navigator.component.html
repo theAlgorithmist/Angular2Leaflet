@@ -1,0 +1,23 @@
+<!-- Simple map navigation, somewhat like the Angular 2 Leaflet starter -->
+<p>Map Navigation</p>
+
+<div class="leftBuffer">
+  <div>
+    <input class="on-map" type="text" placeholder="Enter an address to center map..."
+     [(ngModel)]="_address" (keyup.enter)="__onNavigate()">
+
+     <button class="btn btn-primary gotoBtn clickable" href="#" title="Go to Location" (click)="__onNavigate()">
+       <i class="fa fa-arrow-right"></i>
+     </button>
+  </div>
+  <div *ngIf="_showNavProgress">
+    <span>{{_navProgressText}}</span>
+  </div>
+
+  <div class="topBuffer">
+    <button class="btn btn-success clickable" href="#" title="Go to Location" (click)="__onCurrentLocation()">Show Current Location</button>
+  </div>
+  <div *ngIf="_showLocProgress">
+    <span>{{_locProgressText}}</span>
+  </div>
+</div>

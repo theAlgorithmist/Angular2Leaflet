@@ -1,0 +1,55 @@
+.rounded
+{
+  max-width: 600px;
+  padding: 8px;
+  border: 2px solid #dddddd;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.top-margin
+{
+  margin-top: 20px;
+}
+
+.paddedDiv
+{
+  padding: 8px;
+}
+
+.fullWidth
+{
+  width: 100%;
+}
+
+.logo-img
+{
+  float:left;
+  margin-left: 6px;
+  margin-right:6px;
+}
+
+a
+{
+  color: #ffffff ! important;
+  margin-right: 10px ! important;
+  margin-top: 8px ! important;
+}
+
+a:hover
+{
+  color: #cccccc ! important;
+}
+
+.disabled
+{
+ pointer-events: none;
+ color: #333333;
+}
+
+.bordered
+{
+  border: 1px solid #333333;
+}

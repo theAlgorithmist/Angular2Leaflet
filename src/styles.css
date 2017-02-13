@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+.mainContent
+{
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+a.main
+{
+  text-decoration: none;
+}
+
+a.main:hover
+{
+  text-decoration: underline;
+}
+
+p.padded
+{
+  padding: 50px;
+}
