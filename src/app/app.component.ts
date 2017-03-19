@@ -62,7 +62,7 @@ import { Subscription } from 'rxjs/Subscription';
  {
    protected _loading: boolean = true;    // true if content is being loaded
 
-   // access the leaflet map and the loading component
+   // access the leaflet map
    @ViewChild(LeafletMap) _leafletMap: LeafletMap;
 
  /**
