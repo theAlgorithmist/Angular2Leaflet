@@ -83,7 +83,7 @@
      this._store['location'] = new TSMT$Location();
 
      this._store['tileData'] = {
-      url: "http://{s}.osm.maptiles.xyz/{z}/{x}/{y}.png",
+      url: "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>'
      };
 
